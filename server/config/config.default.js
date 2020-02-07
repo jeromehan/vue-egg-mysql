@@ -26,14 +26,14 @@ module.exports = appInfo => {
     host: 'localhost',
     port: '3306',
     username: 'root',
-    password: 'hHn?13117867545',
+    password: '123456',
     timezone: '+08:00',
   };
   config.security = {
     csrf: {
       enable: false,
     },
-    domainWhiteList: [ 'http://192.168.28.80:8081' ],
+    domainWhiteList: ['http://192.168.0.103:8080/'],
   };
   config.cors = {
     credentials: true,
